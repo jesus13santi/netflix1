@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Netflix</title>
+  </head>
+  <body>
+    <div class="home-log-in">
+      <header class="header-log-in">
+        <img src="img/Vector.png" alt="" />
+      </header>
+      <div class="box-login">
+        <h1>Inicia Sesion</h1>
+        <div class="input-login">
+          <input type="text" placeholder="Email o número de teléfono" />
+          <input type="text" placeholder="Contraseña" />
+          <a href="users.html" class="dirigir-otra">
+            <button class="button-login">Iniciar sesión</button>
+          </a>
+          <div class="recuerdame">
+            <div class="checkbox-input">
+              <input type="checkbox" / >
+              <label for="checkbox-input">Recuerdame</label>
+            </div>
+            <p class="help-login">¿Necesitas ayuda?</p>
+          </div>
+          <div class="primera-vez">
+            <p>¿Primera vez en Netflix?</p>
+            <a href="">Suscribete ya.</a>
+          </div>
+          <p class="paragraph-input">
+            Esta página está protegida por Google reCAPTCHA para comprobar que
+            no eres un robot. Más info.
+          </p>
+        </div>
+      </div>
+      <div class="chat" id="chat"></div>
+      <footer>
+        <button id="buttonChats">
+          <p>Chats</p>
+        </button>
+      </footer>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
